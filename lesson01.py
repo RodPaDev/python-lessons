@@ -12,7 +12,7 @@
 
 num = 12
 floaty = 3.69
-string = "foo"
+string = "foo/"
 booly = False
 nada = None
 
@@ -22,3 +22,13 @@ nada = None
 def bar():
     print(string)
     pass
+
+def printAnything(word):
+    print(word)
+    pass
+
+def onlyPrintCat(word):
+    if word == "cat" and word == "gato":
+        print(word)
+    else:
+        print(word + " is not a cat")
