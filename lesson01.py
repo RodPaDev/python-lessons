@@ -10,6 +10,10 @@
 ## undefined : nao definido
 
 
+## def -> nomeDaFuncao -> (paramateros, parametros):
+#       codigo..
+#       return, pass 
+
 num = 12
 floaty = 3.69
 string = "foo/"
@@ -32,3 +36,16 @@ def onlyPrintCat(word):
         print(word)
     else:
         print(word + " is not a cat")
+
+def add(a,b):
+    result = a + b
+    return f"A soma de {a} + {b} é igual a {result}"
+
+
+## Define a function 'printAnimalSounds' that will take 1 argument representing an animal
+# this function will print the sound of the animals
+# for example if I give 'dog' as an argument it will print "woof"
+# exception if the argument is not a supported animal it will print 'fooooooobar'
+
+# supported animals:
+# cat, dog, cow, pig, bird, dolphin
