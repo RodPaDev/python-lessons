@@ -21,4 +21,4 @@ nada = None
 
 def bar():
     print(string)
-    
+    pass
